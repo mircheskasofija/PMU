@@ -244,13 +244,6 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
                         Intent intent = new Intent(getApplicationContext(), MapHelper.class);
                         intent.putExtra("extra", address_);
                         startActivity(intent);
-
-                        /*getSupportFragmentManager().beginTransaction().add(R.id.frame_layout_map, new GuideAddFragment()).commit();
-
-                        address = addresses.get(0).getAddressLine(0);*/
-                        //Intent intent = new Intent(getApplicationContext(), GuideActivity.class);
-                        //intent.putExtra("mytext", address);
-                        //startActivity(intent);
                     }
                 });
                 gMap.clear();

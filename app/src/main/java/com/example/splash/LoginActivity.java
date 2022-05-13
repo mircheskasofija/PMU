@@ -65,7 +65,7 @@ public class LoginActivity extends AppCompatActivity {
                 @Override
                 public void onDataChange(@NonNull DataSnapshot snapshot) {
                     User value = snapshot.getValue(User.class);
-                    if(value.getType().equals("Guide")){
+                    if(value.getType().equals("Водач")){
                         startActivity(new Intent(getApplicationContext(), GuideActivity.class));
                     }
                     else{

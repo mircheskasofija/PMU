@@ -31,9 +31,7 @@ public class TouristVisitDetails extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tourist_visit_details);
-
         FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
-
         city = findViewById(R.id.city_tourist_details);
         name = findViewById(R.id.nameOfVisit_tourist_details);
         description = findViewById(R.id.description_tourist_details);
