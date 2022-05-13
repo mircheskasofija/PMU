@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background_blue"
+    android:id="@+id/navigation_fragment_tourist"
+    tools:context=".tourist.TouristActivity">
+
+  <com.ismaeldivita.chipnavigation.ChipNavigationBar
+      android:id="@+id/nav_menu_tourist"
+      android:layout_width="match_parent"
+      android:layout_height="50dp"
+      android:layout_alignParentBottom="true"
+      android:layout_margin="30dp"
+      android:background="@drawable/buttons_nav"
+      android:elevation="8dp"
+      app:cnb_menuResource="@menu/bottom_nav_menu_tourist"
+      app:cnb_orientationMode="horizontal"
+      app:cnb_radius="8dp"
+      app:cnb_badgeColor="@color/white" />
+
+  </RelativeLayout>

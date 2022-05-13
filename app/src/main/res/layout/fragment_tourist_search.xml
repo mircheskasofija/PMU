@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".tourist.TouristSearchFragment"
+    android:background="@drawable/gradient_background_green">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="400dp"
+        android:layout_height="180dp"
+        app:flow_firstHorizontalBias="0.5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="lottie_add.json"
+        app:lottie_repeatCount="1"
+        tools:layout_editor_absoluteY="-11dp"
+        tools:ignore="MissingConstraints" />
+
+
+    <Button
+        android:id="@+id/guideVisits"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Разгледайте всички оферти"
+        app:layout_constraintVertical_bias="0.3"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:layout_marginTop="150dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.8"
+        android:background="@drawable/button_bg"/>
+
+    <Button
+        android:id="@+id/activeVisits"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Разгледайте активните оферти"
+        app:layout_constraintVertical_bias="0.4"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:layout_marginTop="250dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.8"
+        android:background="@drawable/button_bg"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

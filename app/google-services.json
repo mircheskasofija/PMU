@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1063307286163",
+    "project_id": "splash-adeb5",
+    "storage_bucket": "splash-adeb5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1063307286163:android:ac21ba4988f793a8201f66",
+        "android_client_info": {
+          "package_name": "com.example.splash"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1063307286163-ehkih82rvoa5viv9jcav02vc7l6kmtt0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmA8-E_xoCnTIASOJnVcFIuPEf2jTO_WQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1063307286163-ehkih82rvoa5viv9jcav02vc7l6kmtt0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".guide.GuideVisitDetails"
+    android:background="#F6CFA5">
+
+    <TextView
+        android:id="@+id/visit_guide_details"
+        android:layout_width="0dp"
+        android:layout_marginTop="50dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/white_outline"
+        android:hint="Детайли за турист"
+        android:minHeight="48dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textSize="18dp"
+        android:textColorHint="#A97E8385"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.05"
+        app:layout_constraintWidth_percent="0.8" />
+
+    <TextView
+        android:id="@+id/city_guide_details"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Град"
+        android:textColorHint="#A97E8385"
+        android:minHeight="48dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:inputType="text"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/visit_guide_details"
+        app:layout_constraintWidth_percent="0.8"
+        app:layout_constraintVertical_bias="0.05"
+        android:background="@drawable/white_outline"/>
+
+    <TextView
+        android:id="@+id/nameOfVisit_guide_details"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/white_outline"
+        android:hint="Наименаование"
+        android:textColorHint="#A97E8385"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/city_guide_details"
+        app:layout_constraintVertical_bias="0.05"
+        app:layout_constraintWidth_percent="0.8" />
+
+    <TextView
+        android:id="@+id/description_guide_details"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/white_outline"
+        android:hint="Описание"
+        android:textColorHint="#A97E8385"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nameOfVisit_guide_details"
+        app:layout_constraintVertical_bias="0.05"
+        app:layout_constraintWidth_percent="0.8" />
+
+    <TextView
+        android:id="@+id/date_guide_details"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/white_outline"
+        android:hint="Дата"
+        android:textSize="18dp"
+        android:textColorHint="#A97E8385"
+        android:inputType="text"
+        android:paddingLeft="20dp"
+        android:minHeight="48dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/description_guide_details"
+        app:layout_constraintVertical_bias="0.05"
+        app:layout_constraintWidth_percent="0.8" />
+
+    <TextView
+        android:id="@+id/locationAddress_details"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/white_outline"
+        android:hint="Адреса"
+        android:minHeight="48dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textColorHint="#A97E8385"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/date_guide_details"
+        app:layout_constraintVertical_bias="0.05"
+        app:layout_constraintWidth_percent="0.8" />
+
+
+
+    <LinearLayout
+        android:id="@+id/accept_reject"
+        app:layout_constraintVertical_bias="0.2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/locationAddress_details"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+            <Button
+                android:id="@+id/accept"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_bg"
+                android:text="Приемам"
+                android:textColor="@color/white"
+                android:layout_marginRight="20dp"/>
+
+            <Button
+                android:id="@+id/reject"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_bg"
+                android:text="Отхвърлям"
+                android:textColor="@color/white"
+                android:layout_marginLeft="20dp"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/delete"
+        android:visibility="invisible"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_bg"
+        android:text="Избриши оферта"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/accept_reject"
+        app:layout_constraintVertical_bias="0.35"
+        app:layout_constraintWidth_percent="0.6" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/bottom_nav_home_tourist"
+        android:title="Home"
+        android:icon="@drawable/ic_home"
+        app:cnb_iconColor="@color/white"
+        app:cnb_backgroundColor="@color/FrenchBlueSky"
+        app:cnb_textColor="@color/white"
+        />
+
+    <item
+        android:id="@+id/bottom_nav_search_tourist"
+        android:title="Search"
+        android:icon="@drawable/ic_search"
+        app:cnb_iconColor="@color/white"
+        app:cnb_backgroundColor="@color/LimeGreen"
+        app:cnb_textColor="@color/white"
+        />
+
+    <item
+        android:id="@+id/bottom_nav_profile_tourist"
+        android:title="Profile"
+        android:icon="@drawable/ic_profile"
+        app:cnb_iconColor="@color/white"
+        app:cnb_backgroundColor="@color/SandyBrown"
+        app:cnb_textColor="@color/white"
+        />
+</menu>
